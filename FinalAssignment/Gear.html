@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="CSS/WebsiteStyles.css">
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Gear — Cross Country & Track</title>
+  
+</head>
+<body>
+  <header class="site-header">
+    <h1>Gear for Runners</h1>
+    <nav class="main-nav">
+      <a href="index.html">Training Plan</a>
+      <a href="Gear.html">Gear</a>
+      <a href="Nutrition.html">Nutrition</a>
+      <a href="DifferentTypes.html">Types of Running</a>
+      <a href="AboutUs.html">About Us</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="grid two-col">
+      <div>
+        <h2>Essential Gear</h2>
+        <ul>
+          <li>Proper running shoes</li>
+          <li>Moisture-wicking apparel</li>
+          <li>Lightweight stopwatch / GPS watch</li>
+          <li>Reflective gear for night runs</li>
+        </ul>
+
+        <p>Recommended reading: <a href="https://www.usatf.org" target="_blank" rel="noopener">USATF</a></p>
+      </div>
+
+      <div class="gear-imgs">
+        <img src="Media/runningshoes.jpg" alt="Running shoes" class="thumb">
+        <img src="Media/sportsman-warming-up-before-starting-run.jpg" alt="Runner stretching" class="thumb">
+      </div>
+    </section>
+
+    <section>
+      <h3>Try-on quick filter</h3>
+      <p>Choose features you want in a shoe and see a suggestion:</p>
+      <label><input type="checkbox" id="cushionCheckbox"> Cushioned</label>
+      <label><input type="checkbox" id="lightCheckbox"> Lightweight</label>
+      <label><input type="checkbox" id="stableCheckbox"> Stable</label>
+      <button id="gearBtn" class="btn">Suggest Shoe</button>
+      <div id="gearOutput" class="result"></div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>External gear reviews: <a href="https://www.outsideonline.com" target="_blank" rel="noopener">Outside</a></p>
+  </footer>
+
+  <script src="JS/WebsiteScript.js"></script>
+</body>
+</html>
+

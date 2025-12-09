@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="CSS/WebsiteStyles.css">
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Types of Running — Cross Country & Track</title>
+  
+</head>
+<body>
+  <header class="site-header">
+    <h1>Types of Running</h1>
+    <nav class="main-nav">
+      <a href="index.html">Training Plan</a>
+      <a href="Gear.html">Gear</a>
+      <a href="Nutrition.html">Nutrition</a>
+      <a href="DifferentTypes.html">Types of Running</a>
+      <a href="AboutUs.html">About Us</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2>Common Formats</h2>
+      <ul>
+        <li><strong>Interval Training</strong> — short, intense repeats</li>
+        <li><strong>Tempo Runs</strong> — sustained threshold pace</li>
+        <li><strong>Fartlek</strong> — unstructured speed play</li>
+        <li><strong>Long Runs</strong> — endurance base building</li>
+      </ul>
+
+      <h3>Interactive Example</h3>
+      <p>Select a type to learn more:</p>
+      <label><input type="radio" name="runType" value="intervals"> Intervals</label>
+      <label><input type="radio" name="runType" value="tempo"> Tempo</label>
+      <label><input type="radio" name="runType" value="long"> Long Run</label>
+      <button id="typeBtn" class="btn">Show Description</button>
+      <div id="typeOutput" class="result"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Find races and info at your local clubs.</p>
+  </footer>
+
+  <script src="JS/WebsiteScript.js"></script>
+</body>
+</html>
