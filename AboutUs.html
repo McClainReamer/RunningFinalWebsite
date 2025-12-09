@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="CSS/WebsiteStyles.css">
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>About Us — Cross Country & Track Program</title>
+  
+</head>
+<body>
+  <header class="site-header">
+    <h1>About Our Program</h1>
+    <nav class="main-nav">
+      <a href="index.html">Training Plan</a>
+      <a href="Gear.html">Gear</a>
+      <a href="Nutrition.html">Nutrition</a>
+      <a href="DifferentTypes.html">Types of Running</a>
+      <a href="AboutUs.html">About Us</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="about-photos">
+      <h2>Meet the Team</h2>
+      <div class="photo-row">
+        <figure>
+          <img src="Media/UsRunning1.jpeg" alt="Team member running" class="about-img">
+          <figcaption>Runner — Pushing the pace.</figcaption>
+        </figure>
+
+        <figure>
+          <img src="Media/UsRunning2.jpg" alt="Team member in uniform" class="about-img">
+          <figcaption>Committed to performance and community.</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section>
+      <h2>Meet the Coaches</h2>
+      <p>We are a student-run cross-country and track program focused on development and community.</p>
+
+      <h3>Join Our Running Community</h3>
+      <form id="joinForm">
+        <label for="name">Full name:</label>
+        <input id="name" name="name" type="text" placeholder="Jane Runner">
+
+        <fieldset>
+          <legend>Preferred events:</legend>
+          <label><input type="checkbox" name="event" value="cross"> Cross country</label>
+          <label><input type="checkbox" name="event" value="track"> Track</label>
+          <label><input type="checkbox" name="event" value="trail"> Trail</label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Experience level:</legend>
+          <label><input type="radio" name="level" value="beginner"> Beginner</label>
+          <label><input type="radio" name="level" value="intermediate"> Intermediate</label>
+          <label><input type="radio" name="level" value="advanced"> Advanced</label>
+        </fieldset>
+
+        <div class="form-buttons">
+          <button type="reset" class="btn">Reset</button>
+          <button type="submit" class="btn primary">Submit</button>
+        </div>
+
+        <div id="formMsg" class="result"></div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Questions? Email us at team@xcprogram.edu</p>
+  </footer>
+
+  <script src="JS/WebsiteScript.js"></script>
+</body>
+</html>

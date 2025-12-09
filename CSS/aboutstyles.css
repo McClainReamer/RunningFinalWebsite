@@ -1,0 +1,36 @@
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* This creates horizontal space between items*/
+    width: 100%;
+    padding: 10px;
+    gap: 10px;
+}
+
+h1{
+    text-align: center;
+    width: 100%;
+}
+
+.team-member-card {
+    width: 250px;
+    border: 2px solid gray;
+    border-radius: 8 px;
+    padding: 10px;
+    margin:10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,.1);
+}
+
+.team-member-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.team-member-card p {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}

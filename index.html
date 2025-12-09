@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="CSS/WebsiteStyles.css">
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Training Plan — Cross Country & Track</title>
+
+</head>
+<body>
+  <header class="site-header">
+    <h1>Cross Country & Track — Training Plan</h1>
+    <nav class="main-nav">
+      <a href="index.html">Training Plan</a>
+      <a href="Gear.html">Gear</a>
+      <a href="Nutrition.html">Nutrition</a>
+      <a href="DifferentTypes.html">Types of Running</a>
+      <a href="AboutUs.html">About Us</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <img src="Media/full-shot-people-running-together.jpg" alt="Runners on trail" class="hero-img">
+      <div class="hero-text">
+        <h2>Weekly Training Calculator</h2>
+        <p>Type your current weekly mileage below to get a suggested plan.</p>
+        <label for="milesInput">Current weekly miles:</label>
+        <input id="milesInput" type="text" placeholder="e.g., 20">
+        <button id="calcBtn" class="btn">Get Plan</button>
+        <div id="planOutput" class="result"></div>
+      </div>
+    </section>
+
+    <section>
+      <h3>Sample 4-Week Progression</h3>
+      <table class="data-table">
+        <thead>
+          <tr><th>Week</th><th>Mon</th><th>Wed</th><th>Fri</th><th>Long</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>1</td><td>Rest</td><td>Tempo 4 mi</td><td>Easy 3 mi</td><td>8 mi</td></tr>
+          <tr><td>2</td><td>Easy 4 mi</td><td>Intervals</td><td>Easy 3 mi</td><td>10 mi</td></tr>
+          <tr><td>3</td><td>Rest</td><td>Hill reps</td><td>Easy 4 mi</td><td>12 mi</td></tr>
+          <tr><td>4</td><td>Easy 5 mi</td><td>Tempo 5 mi</td><td>Easy 3 mi</td><td>14 mi</td></tr>
+        </tbody>
+      </table>
+      <p>Learn more training science from <a href="https://www.runnersworld.com" target="_blank" rel="noopener">Runner's World</a>.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2025 Cross Country & Track Program</p>
+  </footer>
+
+  <script src="JS/WebsiteScript.js"></script>
+</body>
+</html>
